@@ -593,7 +593,7 @@ body {
   margin-left: auto;
 }
 
-@media (min-height:650px){
+@media (min-height:600px){
   .hero{
       margin-top: 20px;
   }
