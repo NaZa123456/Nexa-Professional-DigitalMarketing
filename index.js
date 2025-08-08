@@ -77,3 +77,10 @@ const images = document.querySelectorAll('.hero-images img');
   revealElements.forEach(el => observer.observe(el));
 
   
+  const hamburger = document.getElementById("hamburger");
+  const navLinks = document.getElementById("nav-links");
+
+  hamburger.addEventListener("click", () => {
+    navLinks.classList.toggle("active");
+  });
+
