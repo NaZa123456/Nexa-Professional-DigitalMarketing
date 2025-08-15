@@ -43,7 +43,7 @@ body {
 
 .navbar {
   max-width: 1200px;
-  margin: 20px auto 0 auto; /* centrado + top */
+  margin: 20px auto 0 auto; 
   padding: 15px 35px;
   position: fixed;
   top: 0;
@@ -77,9 +77,9 @@ body {
 }
 
 .logo img {
-  height: 35px;   /* Ajustá este valor según el tamaño deseado */
-  width: auto;    /* Mantiene la proporción original */
-  display: block; /* Elimina espacio extra debajo de la imagen */
+  height: 35px;   
+  width: auto;    
+  display: block; 
 }
 
 
@@ -106,19 +106,7 @@ body {
   margin-left: 5px;
 }
 
-.contact-btn {
-  margin-left:35px;
-  border: 2px solid white;
-  color: white;
-  padding: 12px 25px;
-  border-radius: 10px;
-  text-decoration: none;
 
-}
-
-.contact-btn:hover {
-  background-color: #8dcaba;
-}
 
 
 /*HERO*/
@@ -218,7 +206,7 @@ body {
 
 .hero-buttons {
   display: flex;
-  align-items: center; /* ✅ Esto es lo más importante */
+  align-items: center; 
   gap: 20px;
   opacity: 0;
   animation: fadeIn 0.6s ease-out 1s forwards;
@@ -227,15 +215,15 @@ body {
 .social-icons {
   display: flex;
   gap: 15px;
-  align-items: center; /* ✅ Asegura que los íconos también se centren */
+  align-items: center; 
 }
 
 .social-icons a {
   color: #726b6b  ;
-  font-size: 22px; /* Podés ajustar esto según lo que veas en pantalla */
+  font-size: 22px; 
   transition: color 0.3s ease;
   transition: all 0.3s ease;
-  text-shadow: 0 0 4px rgba(141, 202, 186, 0.5); /* 💡 Glow suave */
+  text-shadow: 0 0 4px rgba(141, 202, 186, 0.5); 
 }
 
 .social-icons a:hover {
@@ -270,7 +258,7 @@ body {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   column-gap: 20px;
-  row-gap: 30px; /* controla la separación vertical entre filas */
+  row-gap: 30px; 
   justify-content: center;
   margin-top: 10px;
 }
@@ -282,13 +270,25 @@ body {
   border-radius: 18px;
   transition: transform 0.2s ease-out;
   will-change: transform;
-  position: relative; /* IMPORTANTE */
+  position: relative; 
 }
 
-.hero-images img:nth-child(2),
-.hero-images img:nth-child(5) {
-  top: 20px; /* Baja visualmente 20px sin afectar a otras */
+.hero-images video{
+  width: 125px;
+  height: 240px;
+  object-fit: cover;
+  border-radius: 18px;
+  transition: transform 0.2s ease-out;
+  will-change: transform;
+  position: relative; 
+  top: 20px; 
 }
+
+.hero-images img:nth-child(5) {
+  top: 20px; 
+}
+
+.hero-images video
 
 .wave-divider {
   line-height: 0;
@@ -317,7 +317,7 @@ body {
 .nexa-container {
   max-width: 900px;
   margin: 0 auto;
-  text-align: left; /* alinear todo el contenido a la izquierda */
+  text-align: left; 
 }
 
 .nexa-section h2 {
@@ -331,8 +331,8 @@ body {
 
 .nexa-highlight {
   display: inline-block;
-  font-weight: 900;         /* más grueso */
-  font-size: 80px;          /* más grande */
+  font-weight: 900;         
+  font-size: 80px;          
   line-height: 1.1;
   background: linear-gradient(90deg, #c9ff00, #00fff7);
   -webkit-background-clip: text;
@@ -367,7 +367,7 @@ body {
   background: linear-gradient(to right, #ffffff 60%, #f7fcff 100%);
   flex-wrap: nowrap;
   gap: 2rem;
-  overflow: hidden; /* 👈 evita que el carrusel se desborde */
+  overflow: hidden; 
 }
 
 /* TEXTO DE LA SECCIÓN */
@@ -476,7 +476,7 @@ body {
 
 
 .curved-edge {
-  --c: 70px; /* Controla la curvatura */
+  --c: 70px; 
   height: 100%;
   aspect-ratio: auto;
   mask: radial-gradient(60% var(--c) at 50% var(--c), #0000 calc(100% - 2px), #000) 0 calc(-1 * var(--c));
@@ -487,7 +487,7 @@ body {
 } 
 
 
-/*about us*/
+
 
 .highlight-wrapper {
   background-color: white;
@@ -512,8 +512,8 @@ body {
   font-family: 'Play', sans-serif;
   font-weight: 900;
   font-size: 70px;
-  line-height: 1.1;       /* más compacto verticalmente */
-  letter-spacing: -5px;   /* opcional: más juntas horizontalmente */
+  line-height: 1.1;       
+  letter-spacing: -5px;   
 }
 
 .right-box {
@@ -525,8 +525,8 @@ body {
   transform: scale(1.09);
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
   z-index: 1;
-  justify-content: center;  /* centra verticalmente */
-  align-items: center;      /* centra horizontalmente */
+  justify-content: center;  
+  align-items: center;     
 }
 
 .right-box p {
@@ -568,8 +568,8 @@ body {
 }
 
 .footer-logo {
-  height: 70px;         /* ajustá según el tamaño que querés */
-  width: auto;          /* mantiene la proporción original */
+  height: 70px;        
+  width: auto;        
   display: block;
   margin-top: 1.5rem;
 }
@@ -578,7 +578,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 1rem;
-  padding-left: 170px; /* ajusta según lo que necesites */
+  padding-left: 170px; 
 }
 
 .footer-section ul {
@@ -640,21 +640,21 @@ body {
 
 @media (max-height:600px){
   .hero{
-      margin-top: 20px;
+      margin-top: 10px;
   }
 
   .services-section {
     padding: 5rem 5%;
-    min-height: 75vh; /* en lugar de 85vh */
+    min-height: 75vh; 
     gap: 1.5rem;
   }
 
   .services-text h2 {
-    font-size: 4.8rem; /* antes 5.5rem */
+    font-size: 4.8rem; 
   }
 
   .services-text p {
-    font-size: 1.3rem; /* antes 1.4rem */
+    font-size: 1.3rem;  
   }
 
   .learn-btn {
@@ -663,7 +663,7 @@ body {
   }
 
   .card {
-    width: 420px;  /* antes 480px */
+    width: 420px;  
     height: 420px;
   }
 
@@ -694,7 +694,7 @@ body {
   }
 
   .right-box {
-    transform: scale(1.03); /* más suave que 1.09 */
+    transform: scale(1.03); 
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
   }
 
@@ -865,13 +865,13 @@ body {
   }
 
   .carousel-arrows {
-    margin-top: 0.1rem;     /* reduce la separación superior */
-    padding-left: 0;        /* quita el espacio lateral izquierdo */
+    margin-top: 0.1rem;    
+    padding-left: 0;       
   }
 
   .curved-edge {
-    --c: 0; /* elimina la curvatura */
-    mask: none; /* o también puedes desactivar la máscara */
+    --c: 0; 
+    mask: none; 
   }
 
   .highlight-section {
@@ -887,7 +887,7 @@ body {
     width: 100%;
     padding: 30px 20px;
     border-top-left-radius: 40px;
-    border-top-right-radius: 40px; /* redondeo también a la derecha */
+    border-top-right-radius: 40px; 
   }
 
   .left-box h2 {
