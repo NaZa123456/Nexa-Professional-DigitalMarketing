@@ -805,6 +805,11 @@ body {
     height: 192px;
   }
 
+  .hero-images video{
+    width: 100px;
+    height: 192px;
+  }
+
   .nexa-section {
     padding-top: 80px;
     padding-bottom: 130px;
